@@ -1,0 +1,4 @@
+* text=auto
+*.rs text whitespace=tab-in-indent,trailing-space,tabwidth=4 diff=rust
+*.md text diff=markdown
+*.toml text diff=toml

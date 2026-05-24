@@ -1,0 +1,69 @@
+name: Rust
+
+on: [push, pull_request]
+
+env:
+  CARGO_INCREMENTAL: 0
+  CARGO_NET_RETRY: 10
+  RUSTUP_MAX_RETRIES: 10
+  CARGO_TERM_COLOR: always
+  RUST_BACKTRACE: full
+  RUSTFLAGS: "-D warnings"
+  # Disable debuginfo for faster compile
+  CARGO_PROFILE_DEV_DEBUG: 0
+  CARGO_PROFILE_TEST_DEBUG: 0
+  CARGO_PROFILE_BENCH_DEBUG: 0
+  CI: 1
+  CARGO_MAKE_CI: 1
+  CARGO_MAKE_RUN_CHECK_FORMAT: 1
+  CARGO_MAKE_RUN_CLIPPY: 1
+
+jobs:
+  rust:
+    name: Rust
+    runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.rust == 'nightly' }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        rust:
+          - stable
+          - beta
+          - nightly
+          - 1.58.1
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install Rust toolchain
+      uses: dtolnay/rust-toolchain@master
+      with:
+        toolchain: ${{ matrix.rust }}
+        components: clippy,rustfmt
+
+    - name: Cache Dependencies
+      uses: Swatinem/rust-cache@v2
+
+    - name: Install Cargo Make
+      uses: davidB/rust-cargo-make@v1
+
+    - run: cargo make build
+      if: ${{ matrix.rust == '1.58.1' }}
+
+    - run : cargo make ci-flow
+      if: ${{ matrix.rust != '1.58.1' }}
+  miri:
+    name: Miri
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: nightly
+          components: miri
+      - run: cargo miri test
+        env:
+          MIRIFLAGS: -Zmiri-strict-provenance -Zmiri-retag-fields

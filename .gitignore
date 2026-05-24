@@ -1,0 +1,10 @@
+# Rust
+target/
+**/*.rs.bak
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
