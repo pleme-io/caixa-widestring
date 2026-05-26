@@ -95,9 +95,9 @@ rec {
     crates = {
       "aho-corasick" = rec {
         crateName = "aho-corasick";
-        version = "0.7.20";
-        edition = "2018";
-        sha256 = "1b3if3nav4qzgjz9bf75b2cv2h2yisrqfs0np70i38kgz4cn94yc";
+        version = "1.1.4";
+        edition = "2021";
+        sha256 = "00a32wb2h07im3skkikc495jvncf62jl6s96vwc7bhi70h9imlyx";
         libName = "aho_corasick";
         authors = [
           "Andrew Gallant <jamslam@gmail.com>"
@@ -106,25 +106,27 @@ rec {
           {
             name = "memchr";
             packageId = "memchr";
+            optional = true;
             usesDefaultFeatures = false;
           }
         ];
         features = {
-          "default" = [ "std" ];
-          "std" = [ "memchr/std" ];
+          "default" = [ "std" "perf-literal" ];
+          "logging" = [ "dep:log" ];
+          "perf-literal" = [ "dep:memchr" ];
+          "std" = [ "memchr?/std" ];
         };
-        resolvedDefaultFeatures = [ "default" "std" ];
+        resolvedDefaultFeatures = [ "perf-literal" "std" ];
       };
       "anyhow" = rec {
         crateName = "anyhow";
-        version = "1.0.81";
-        edition = "2018";
-        sha256 = "0ivj2k7vajai9hc11lhjp73n6rqs1ykg6wbjjjl1mz9adj580lh9";
+        version = "1.0.102";
+        edition = "2021";
+        sha256 = "0b447dra1v12z474c6z4jmicdmc5yxz5bakympdnij44ckw2s83z";
         authors = [
           "David Tolnay <dtolnay@gmail.com>"
         ];
         features = {
-          "backtrace" = [ "dep:backtrace" ];
           "default" = [ "std" ];
         };
         resolvedDefaultFeatures = [ "default" "std" ];
@@ -179,9 +181,9 @@ rec {
       };
       "log" = rec {
         crateName = "log";
-        version = "0.4.21";
+        version = "0.4.29";
         edition = "2021";
-        sha256 = "074hldq1q8rlzq2s2qa8f25hj4s3gpw71w64vdwzjd01a4g8rvch";
+        sha256 = "15q8j9c8g5zpkcw0hnd6cf2z7fxqnvsjh3rw5mv5q10r83i34l2y";
         authors = [
           "The Rust Project Developers"
         ];
@@ -193,7 +195,8 @@ rec {
           "kv_unstable_serde" = [ "kv_serde" "kv_unstable_std" ];
           "kv_unstable_std" = [ "kv_std" "kv_unstable" ];
           "kv_unstable_sval" = [ "kv_sval" "kv_unstable" ];
-          "serde" = [ "dep:serde" ];
+          "serde" = [ "serde_core" ];
+          "serde_core" = [ "dep:serde_core" ];
           "sval" = [ "dep:sval" ];
           "sval_ref" = [ "dep:sval_ref" ];
           "value-bag" = [ "dep:value-bag" ];
@@ -201,28 +204,28 @@ rec {
       };
       "memchr" = rec {
         crateName = "memchr";
-        version = "2.5.0";
-        edition = "2018";
-        sha256 = "0vanfk5mzs1g1syqnj03q8n0syggnhn55dq535h2wxr7rwpfbzrd";
+        version = "2.8.0";
+        edition = "2021";
+        sha256 = "0y9zzxcqxvdqg6wyag7vc3h0blhdn7hkq164bxyx2vph8zs5ijpq";
         authors = [
           "Andrew Gallant <jamslam@gmail.com>"
           "bluss"
         ];
         features = {
-          "compiler_builtins" = [ "dep:compiler_builtins" ];
           "core" = [ "dep:core" ];
           "default" = [ "std" ];
-          "libc" = [ "dep:libc" ];
-          "rustc-dep-of-std" = [ "core" "compiler_builtins" ];
+          "logging" = [ "dep:log" ];
+          "rustc-dep-of-std" = [ "core" ];
+          "std" = [ "alloc" ];
           "use_std" = [ "std" ];
         };
-        resolvedDefaultFeatures = [ "default" "std" ];
+        resolvedDefaultFeatures = [ "alloc" "std" ];
       };
       "proc-macro2" = rec {
         crateName = "proc-macro2";
-        version = "1.0.79";
+        version = "1.0.106";
         edition = "2021";
-        sha256 = "0bn004ybzdqid81cqppr5c9jrvqsxv50x60sxc41cwpmk0igydg8";
+        sha256 = "0d09nczyaj67x4ihqr5p7gxbkz38gxhk4asc0k8q23g9n85hzl4g";
         libName = "proc_macro2";
         authors = [
           "David Tolnay <dtolnay@gmail.com>"
@@ -241,9 +244,9 @@ rec {
       };
       "quote" = rec {
         crateName = "quote";
-        version = "1.0.35";
-        edition = "2018";
-        sha256 = "1vv8r2ncaz4pqdr78x7f138ka595sp2ncr1sa2plm4zxbsmwj7i9";
+        version = "1.0.45";
+        edition = "2021";
+        sha256 = "095rb5rg7pbnwdp6v8w5jw93wndwyijgci1b5lw8j1h5cscn3wj1";
         authors = [
           "David Tolnay <dtolnay@gmail.com>"
         ];
@@ -262,22 +265,31 @@ rec {
       };
       "regex" = rec {
         crateName = "regex";
-        version = "1.7.3";
-        edition = "2018";
-        sha256 = "07cxfkk935hcjmpa9wfjh1s0ddkh9lj0ivwk90pr3b7n4hxnj7wb";
+        version = "1.12.3";
+        edition = "2021";
+        sha256 = "0xp2q0x7ybmpa5zlgaz00p8zswcirj9h8nry3rxxsdwi9fhm81z1";
         authors = [
           "The Rust Project Developers"
+          "Andrew Gallant <jamslam@gmail.com>"
         ];
         dependencies = [
           {
             name = "aho-corasick";
             packageId = "aho-corasick";
             optional = true;
+            usesDefaultFeatures = false;
           }
           {
             name = "memchr";
             packageId = "memchr";
             optional = true;
+            usesDefaultFeatures = false;
+          }
+          {
+            name = "regex-automata";
+            packageId = "regex-automata";
+            usesDefaultFeatures = false;
+            features = [ "alloc" "syntax" "meta" "nfa-pikevm" ];
           }
           {
             name = "regex-syntax";
@@ -286,38 +298,106 @@ rec {
           }
         ];
         features = {
-          "aho-corasick" = [ "dep:aho-corasick" ];
           "default" = [ "std" "perf" "unicode" "regex-syntax/default" ];
-          "memchr" = [ "dep:memchr" ];
-          "perf" = [ "perf-cache" "perf-dfa" "perf-inline" "perf-literal" ];
-          "perf-literal" = [ "aho-corasick" "memchr" ];
-          "unicode" = [ "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" "regex-syntax/unicode" ];
-          "unicode-age" = [ "regex-syntax/unicode-age" ];
-          "unicode-bool" = [ "regex-syntax/unicode-bool" ];
-          "unicode-case" = [ "regex-syntax/unicode-case" ];
-          "unicode-gencat" = [ "regex-syntax/unicode-gencat" ];
-          "unicode-perl" = [ "regex-syntax/unicode-perl" ];
-          "unicode-script" = [ "regex-syntax/unicode-script" ];
-          "unicode-segment" = [ "regex-syntax/unicode-segment" ];
+          "logging" = [ "aho-corasick?/logging" "memchr?/logging" "regex-automata/logging" ];
+          "perf" = [ "perf-cache" "perf-dfa" "perf-onepass" "perf-backtrack" "perf-inline" "perf-literal" ];
+          "perf-backtrack" = [ "regex-automata/nfa-backtrack" ];
+          "perf-dfa" = [ "regex-automata/hybrid" ];
+          "perf-dfa-full" = [ "regex-automata/dfa-build" "regex-automata/dfa-search" ];
+          "perf-inline" = [ "regex-automata/perf-inline" ];
+          "perf-literal" = [ "dep:aho-corasick" "dep:memchr" "regex-automata/perf-literal" ];
+          "perf-onepass" = [ "regex-automata/dfa-onepass" ];
+          "std" = [ "aho-corasick?/std" "memchr?/std" "regex-automata/std" "regex-syntax/std" ];
+          "unicode" = [ "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" "regex-automata/unicode" "regex-syntax/unicode" ];
+          "unicode-age" = [ "regex-automata/unicode-age" "regex-syntax/unicode-age" ];
+          "unicode-bool" = [ "regex-automata/unicode-bool" "regex-syntax/unicode-bool" ];
+          "unicode-case" = [ "regex-automata/unicode-case" "regex-syntax/unicode-case" ];
+          "unicode-gencat" = [ "regex-automata/unicode-gencat" "regex-syntax/unicode-gencat" ];
+          "unicode-perl" = [ "regex-automata/unicode-perl" "regex-automata/unicode-word-boundary" "regex-syntax/unicode-perl" ];
+          "unicode-script" = [ "regex-automata/unicode-script" "regex-syntax/unicode-script" ];
+          "unicode-segment" = [ "regex-automata/unicode-segment" "regex-syntax/unicode-segment" ];
           "unstable" = [ "pattern" ];
           "use_std" = [ "std" ];
         };
-        resolvedDefaultFeatures = [ "aho-corasick" "default" "memchr" "perf" "perf-cache" "perf-dfa" "perf-inline" "perf-literal" "std" "unicode" "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" ];
+        resolvedDefaultFeatures = [ "default" "perf" "perf-backtrack" "perf-cache" "perf-dfa" "perf-inline" "perf-literal" "perf-onepass" "std" "unicode" "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" ];
+      };
+      "regex-automata" = rec {
+        crateName = "regex-automata";
+        version = "0.4.14";
+        edition = "2021";
+        sha256 = "13xf7hhn4qmgfh784llcp2kzrvljd13lb2b1ca0mwnf15w9d87bf";
+        libName = "regex_automata";
+        authors = [
+          "The Rust Project Developers"
+          "Andrew Gallant <jamslam@gmail.com>"
+        ];
+        dependencies = [
+          {
+            name = "aho-corasick";
+            packageId = "aho-corasick";
+            optional = true;
+            usesDefaultFeatures = false;
+          }
+          {
+            name = "memchr";
+            packageId = "memchr";
+            optional = true;
+            usesDefaultFeatures = false;
+          }
+          {
+            name = "regex-syntax";
+            packageId = "regex-syntax";
+            optional = true;
+            usesDefaultFeatures = false;
+          }
+        ];
+        features = {
+          "default" = [ "std" "syntax" "perf" "unicode" "meta" "nfa" "dfa" "hybrid" ];
+          "dfa" = [ "dfa-build" "dfa-search" "dfa-onepass" ];
+          "dfa-build" = [ "nfa-thompson" "dfa-search" ];
+          "dfa-onepass" = [ "nfa-thompson" ];
+          "hybrid" = [ "alloc" "nfa-thompson" ];
+          "internal-instrument" = [ "internal-instrument-pikevm" ];
+          "internal-instrument-pikevm" = [ "logging" "std" ];
+          "logging" = [ "dep:log" "aho-corasick?/logging" "memchr?/logging" ];
+          "meta" = [ "syntax" "nfa-pikevm" ];
+          "nfa" = [ "nfa-thompson" "nfa-pikevm" "nfa-backtrack" ];
+          "nfa-backtrack" = [ "nfa-thompson" ];
+          "nfa-pikevm" = [ "nfa-thompson" ];
+          "nfa-thompson" = [ "alloc" ];
+          "perf" = [ "perf-inline" "perf-literal" ];
+          "perf-literal" = [ "perf-literal-substring" "perf-literal-multisubstring" ];
+          "perf-literal-multisubstring" = [ "dep:aho-corasick" ];
+          "perf-literal-substring" = [ "aho-corasick?/perf-literal" "dep:memchr" ];
+          "std" = [ "regex-syntax?/std" "memchr?/std" "aho-corasick?/std" "alloc" ];
+          "syntax" = [ "dep:regex-syntax" "alloc" ];
+          "unicode" = [ "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" "unicode-word-boundary" "regex-syntax?/unicode" ];
+          "unicode-age" = [ "regex-syntax?/unicode-age" ];
+          "unicode-bool" = [ "regex-syntax?/unicode-bool" ];
+          "unicode-case" = [ "regex-syntax?/unicode-case" ];
+          "unicode-gencat" = [ "regex-syntax?/unicode-gencat" ];
+          "unicode-perl" = [ "regex-syntax?/unicode-perl" ];
+          "unicode-script" = [ "regex-syntax?/unicode-script" ];
+          "unicode-segment" = [ "regex-syntax?/unicode-segment" ];
+        };
+        resolvedDefaultFeatures = [ "alloc" "dfa-onepass" "hybrid" "meta" "nfa-backtrack" "nfa-pikevm" "nfa-thompson" "perf-inline" "perf-literal" "perf-literal-multisubstring" "perf-literal-substring" "std" "syntax" "unicode" "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" "unicode-word-boundary" ];
       };
       "regex-syntax" = rec {
         crateName = "regex-syntax";
-        version = "0.6.29";
-        edition = "2018";
-        sha256 = "1qgj49vm6y3zn1hi09x91jvgkl2b1fiaq402skj83280ggfwcqpi";
+        version = "0.8.10";
+        edition = "2021";
+        sha256 = "02jx311ka0daxxc7v45ikzhcl3iydjbbb0mdrpc1xgg8v7c7v2fw";
         libName = "regex_syntax";
         authors = [
           "The Rust Project Developers"
+          "Andrew Gallant <jamslam@gmail.com>"
         ];
         features = {
-          "default" = [ "unicode" ];
+          "arbitrary" = [ "dep:arbitrary" ];
+          "default" = [ "std" "unicode" ];
           "unicode" = [ "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" ];
         };
-        resolvedDefaultFeatures = [ "default" "unicode" "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" ];
+        resolvedDefaultFeatures = [ "default" "std" "unicode" "unicode-age" "unicode-bool" "unicode-case" "unicode-gencat" "unicode-perl" "unicode-script" "unicode-segment" ];
       };
       "syn" = rec {
         crateName = "syn";
@@ -355,9 +435,9 @@ rec {
       };
       "unicode-ident" = rec {
         crateName = "unicode-ident";
-        version = "1.0.12";
-        edition = "2018";
-        sha256 = "0jzf1znfpb2gx8nr8mvmyqs1crnv79l57nxnbiszc7xf7ynbjm1k";
+        version = "1.0.24";
+        edition = "2021";
+        sha256 = "0xfs8y1g7syl2iykji8zk5hgfi5jw819f5zsrbaxmlzwsly33r76";
         libName = "unicode_ident";
         authors = [
           "David Tolnay <dtolnay@gmail.com>"
@@ -366,7 +446,7 @@ rec {
       };
       "widestring" = rec {
         crateName = "widestring";
-        version = "1.2.2";
+        version = "1.2.3";
         edition = "2021";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         devDependencies = [
