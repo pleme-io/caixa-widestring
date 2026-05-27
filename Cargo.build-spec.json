@@ -1,0 +1,862 @@
+{
+  "version": 2,
+  "workspace": {
+    "root": "/Users/drzzln/code/github/pleme-io/caixa-widestring",
+    "members": [
+      {
+        "name": "widestring",
+        "relative_path": "."
+      }
+    ]
+  },
+  "crates": {
+    "aho-corasick-1.1.4": {
+      "name": "aho-corasick",
+      "version": "1.1.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/aho-corasick/1.1.4/download",
+        "sha256": "ddd31a130427c27518df266943a5308ed92d4b226cc639f5a8f1002816174301",
+        "name_with_ext": "aho-corasick-1.1.4.tar.gz"
+      },
+      "features": [
+        "perf-literal",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "aho_corasick",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "anyhow-1.0.102": {
+      "name": "anyhow",
+      "version": "1.0.102",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/anyhow/1.0.102/download",
+        "sha256": "7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c",
+        "name_with_ext": "anyhow-1.0.102.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "anyhow",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "debugger_test-0.1.5": {
+      "name": "debugger_test",
+      "version": "0.1.5",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/debugger_test/0.1.5/download",
+        "sha256": "d95bb55f592fbb86947bee426d831de84bd65602a54f5cdcb10bfa70a62e52a0",
+        "name_with_ext": "debugger_test-0.1.5.tar.gz"
+      },
+      "features": [],
+      "proc_macro": true,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "debugger_test",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anyhow",
+          "package_key": "anyhow-1.0.102",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.30",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "syn",
+          "package_key": "syn-1.0.109",
+          "kind": "normal",
+          "features": [
+            "full"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anyhow",
+          "package_key": "anyhow-1.0.102",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.30",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "syn",
+          "package_key": "syn-1.0.109",
+          "kind": "normal",
+          "features": [
+            "full"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "debugger_test_parser-0.1.3": {
+      "name": "debugger_test_parser",
+      "version": "0.1.3",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/debugger_test_parser/0.1.3/download",
+        "sha256": "ebe536452a777752b9316f0c840afbb94a2411684d4f15c081449ea801ef9e75",
+        "name_with_ext": "debugger_test_parser-0.1.3.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "debugger_test_parser",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anyhow",
+          "package_key": "anyhow-1.0.102",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.30",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex",
+          "package_key": "regex-1.12.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anyhow",
+          "package_key": "anyhow-1.0.102",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.30",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex",
+          "package_key": "regex-1.12.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "log-0.4.30": {
+      "name": "log",
+      "version": "0.4.30",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/log/0.4.30/download",
+        "sha256": "616ec5685824bcc94416c6d4a7a446eea774a31efd7062c8480ba6fd06d7a6e5",
+        "name_with_ext": "log-0.4.30.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "log",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "memchr-2.8.0": {
+      "name": "memchr",
+      "version": "2.8.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/memchr/2.8.0/download",
+        "sha256": "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79",
+        "name_with_ext": "memchr-2.8.0.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "memchr",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "proc-macro2-1.0.106": {
+      "name": "proc-macro2",
+      "version": "1.0.106",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/proc-macro2/1.0.106/download",
+        "sha256": "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934",
+        "name_with_ext": "proc-macro2-1.0.106.tar.gz"
+      },
+      "features": [
+        "proc-macro"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "proc_macro2",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "unicode-ident": [
+          {
+            "version": "1.0.24",
+            "rename": "unicode_ident"
+          }
+        ]
+      }
+    },
+    "quote-1.0.45": {
+      "name": "quote",
+      "version": "1.0.45",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/quote/1.0.45/download",
+        "sha256": "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924",
+        "name_with_ext": "quote-1.0.45.tar.gz"
+      },
+      "features": [
+        "default",
+        "proc-macro"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "quote",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "proc-macro2": [
+          {
+            "version": "1.0.106",
+            "rename": "proc_macro2"
+          }
+        ]
+      }
+    },
+    "regex-1.12.3": {
+      "name": "regex",
+      "version": "1.12.3",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/regex/1.12.3/download",
+        "sha256": "e10754a14b9137dd7b1e3e5b0493cc9171fdd105e0ab477f51b72e7f3ac0e276",
+        "name_with_ext": "regex-1.12.3.tar.gz"
+      },
+      "features": [
+        "default",
+        "perf",
+        "perf-backtrack",
+        "perf-cache",
+        "perf-dfa",
+        "perf-inline",
+        "perf-literal",
+        "perf-onepass",
+        "std",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "regex",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_automata",
+          "package_key": "regex-automata-0.4.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_automata",
+          "package_key": "regex-automata-0.4.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "aho-corasick": [
+          {
+            "version": "1.1.4",
+            "rename": "aho_corasick"
+          }
+        ],
+        "regex-automata": [
+          {
+            "version": "0.4.14",
+            "rename": "regex_automata"
+          }
+        ],
+        "regex-syntax": [
+          {
+            "version": "0.8.10",
+            "rename": "regex_syntax"
+          }
+        ]
+      }
+    },
+    "regex-automata-0.4.14": {
+      "name": "regex-automata",
+      "version": "0.4.14",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/regex-automata/0.4.14/download",
+        "sha256": "6e1dd4122fc1595e8162618945476892eefca7b88c52820e74af6262213cae8f",
+        "name_with_ext": "regex-automata-0.4.14.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "dfa-onepass",
+        "hybrid",
+        "meta",
+        "nfa-backtrack",
+        "nfa-pikevm",
+        "nfa-thompson",
+        "perf-inline",
+        "perf-literal",
+        "perf-literal-multisubstring",
+        "perf-literal-substring",
+        "std",
+        "syntax",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment",
+        "unicode-word-boundary"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "regex_automata",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "aho-corasick": [
+          {
+            "version": "1.1.4",
+            "rename": "aho_corasick"
+          }
+        ],
+        "regex-syntax": [
+          {
+            "version": "0.8.10",
+            "rename": "regex_syntax"
+          }
+        ]
+      }
+    },
+    "regex-syntax-0.8.10": {
+      "name": "regex-syntax",
+      "version": "0.8.10",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/regex-syntax/0.8.10/download",
+        "sha256": "dc897dd8d9e8bd1ed8cdad82b5966c3e0ecae09fb1907d58efaa013543185d0a",
+        "name_with_ext": "regex-syntax-0.8.10.tar.gz"
+      },
+      "features": [
+        "default",
+        "std",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "regex_syntax",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "syn-1.0.109": {
+      "name": "syn",
+      "version": "1.0.109",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/syn/1.0.109/download",
+        "sha256": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+        "name_with_ext": "syn-1.0.109.tar.gz"
+      },
+      "features": [
+        "clone-impls",
+        "default",
+        "derive",
+        "full",
+        "parsing",
+        "printing",
+        "proc-macro",
+        "quote"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "syn",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "proc-macro2": [
+          {
+            "version": "1.0.106",
+            "rename": "proc_macro2"
+          }
+        ],
+        "unicode-ident": [
+          {
+            "version": "1.0.24",
+            "rename": "unicode_ident"
+          }
+        ]
+      }
+    },
+    "unicode-ident-1.0.24": {
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/unicode-ident/1.0.24/download",
+        "sha256": "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75",
+        "name_with_ext": "unicode-ident-1.0.24.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "unicode_ident",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "widestring-1.2.3": {
+      "name": "widestring",
+      "version": "1.2.3",
+      "edition": "2021",
+      "source": {
+        "kind": "path",
+        "relative_path": "."
+      },
+      "features": [
+        "alloc",
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "widestring",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    }
+  },
+  "root_crate": "widestring-1.2.3",
+  "workspace_members": [
+    "widestring-1.2.3"
+  ],
+  "flake_metadata": {
+    "widestring": {
+      "default_bin": null,
+      "repo": "VoidStarKat/widestring-rs"
+    }
+  }
+}
