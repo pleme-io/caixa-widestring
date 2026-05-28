@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 5,
   "workspace": {
-    "root": "/Users/drzzln/code/github/pleme-io/caixa-widestring",
+    "root": "/Users/luis.d/code/github/pleme-io/caixa-widestring",
     "members": [
       {
         "name": "widestring",
@@ -37,7 +37,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -48,7 +49,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -125,7 +127,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "log",
@@ -134,7 +137,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -143,7 +147,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "syn",
@@ -154,7 +159,8 @@
           ],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -165,7 +171,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "log",
@@ -174,7 +181,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -183,7 +191,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "syn",
@@ -194,7 +203,8 @@
           ],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -232,7 +242,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "log",
@@ -241,7 +252,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex",
@@ -250,7 +262,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -261,7 +274,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "log",
@@ -270,7 +284,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex",
@@ -279,7 +294,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -381,7 +397,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -392,7 +409,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -451,7 +469,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -462,7 +481,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -537,7 +557,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "memchr",
@@ -546,7 +567,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex_automata",
@@ -555,7 +577,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex_syntax",
@@ -564,7 +587,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -575,7 +599,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "memchr",
@@ -584,7 +609,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex_automata",
@@ -593,7 +619,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex_syntax",
@@ -602,7 +629,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -720,7 +748,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "memchr",
@@ -729,7 +758,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex_syntax",
@@ -738,7 +768,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -749,7 +780,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "memchr",
@@ -758,7 +790,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "regex_syntax",
@@ -767,7 +800,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -915,7 +949,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -924,7 +959,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "unicode_ident",
@@ -933,7 +969,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -944,7 +981,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -953,7 +991,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "unicode_ident",
@@ -962,7 +1001,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -1090,6 +1130,2972 @@
     "widestring": {
       "default_bin": null,
       "repo": "VoidStarKat/widestring-rs"
+    }
+  },
+  "target_resolves": {
+    "aarch64-apple-darwin": {
+      "crates": {
+        "aho-corasick-1.1.4": {
+          "dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "anyhow-1.0.102": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "debugger_test-0.1.5": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "debugger_test_parser-0.1.3": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "log-0.4.30": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-1.12.3": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-automata-0.4.14": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-syntax-0.8.10": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "syn-1.0.109": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "widestring-1.2.3": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "x86_64-apple-darwin": {
+      "crates": {
+        "aho-corasick-1.1.4": {
+          "dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "anyhow-1.0.102": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "debugger_test-0.1.5": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "debugger_test_parser-0.1.3": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "log-0.4.30": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-1.12.3": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-automata-0.4.14": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-syntax-0.8.10": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "syn-1.0.109": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "widestring-1.2.3": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "x86_64-unknown-linux-gnu": {
+      "crates": {
+        "aho-corasick-1.1.4": {
+          "dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "anyhow-1.0.102": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "debugger_test-0.1.5": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "debugger_test_parser-0.1.3": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "log-0.4.30": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-1.12.3": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-automata-0.4.14": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-syntax-0.8.10": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "syn-1.0.109": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "widestring-1.2.3": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "x86_64-unknown-linux-musl": {
+      "crates": {
+        "aho-corasick-1.1.4": {
+          "dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "anyhow-1.0.102": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "debugger_test-0.1.5": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "debugger_test_parser-0.1.3": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "log-0.4.30": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-1.12.3": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-automata-0.4.14": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-syntax-0.8.10": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "syn-1.0.109": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "widestring-1.2.3": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "aarch64-unknown-linux-gnu": {
+      "crates": {
+        "aho-corasick-1.1.4": {
+          "dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "anyhow-1.0.102": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "debugger_test-0.1.5": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "debugger_test_parser-0.1.3": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "log-0.4.30": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-1.12.3": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-automata-0.4.14": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-syntax-0.8.10": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "syn-1.0.109": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "widestring-1.2.3": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "aarch64-unknown-linux-musl": {
+      "crates": {
+        "aho-corasick-1.1.4": {
+          "dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "anyhow-1.0.102": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "debugger_test-0.1.5": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-1.0.109",
+              "kind": "normal",
+              "features": [
+                "full"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "debugger_test_parser-0.1.3": {
+          "dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "anyhow",
+              "package_key": "anyhow-1.0.102",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "log",
+              "package_key": "log-0.4.30",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex",
+              "package_key": "regex-1.12.3",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "log-0.4.30": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-1.12.3": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_automata",
+              "package_key": "regex-automata-0.4.14",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-automata-0.4.14": {
+          "dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "aho_corasick",
+              "package_key": "aho-corasick-1.1.4",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "regex_syntax",
+              "package_key": "regex-syntax-0.8.10",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "regex-syntax-0.8.10": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "syn-1.0.109": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "widestring-1.2.3": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
     }
   }
 }
